@@ -13,7 +13,6 @@ body {
 }
 
 header {
-  position: absolute;
   width: 100%;
   height: 100%;
   background: url(../images/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.jpg)
@@ -25,11 +24,10 @@ header {
   width: 85%;
   height: 20px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center; 
   font-size: 16px;
   line-height: 20px;
-  margin-top: 38px;
+  padding-top: 38px;
   margin-left: 99.33px;
 }
 
@@ -68,18 +66,22 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: 89.13px;
 }
 
 .about a:hover {
   cursor: pointer;
+  border-bottom: 1px solid  #533738;
 }
 
 .contact-phone {
   width: 144.63px;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: auto;
+}
+
+.contact-phone:hover {
+  border-bottom: 1px solid  #533738;
 }
 
 article {
@@ -120,13 +122,14 @@ article > button {
 
 article > button:hover {
   cursor: pointer;
+  background: #a03c35;
+  color: #ffffff;
 }
 
 main {
   width: 100%;
   height: 1000px;
   position: absolute;
-  margin-top: 757px;
 }
 
 .about-us {
@@ -317,6 +320,7 @@ div .more-text {
 
 .more:hover {
   cursor: pointer;
+  border-bottom: 1px solid  #533738;
 }
 
 .team {
@@ -391,6 +395,10 @@ div .more-text {
   color: #ffffff;
 }
 
+.ellipse:hover {
+  cursor: default;
+}
+
 .how-we-work div {
   display: flex;
   flex-direction: column;
@@ -455,6 +463,7 @@ div .more-text {
 
 .circle:hover {
   cursor: pointer;
+  background: #a03c35;
 }
 
 .circle img {
@@ -590,6 +599,12 @@ form input {
   color: #533738;
 }
 
+#submit-request:hover {
+  background: #ca716b;
+  color: #ffffff;
+}
+
+
 .map {
   width: 590px;
   height: 624px;
@@ -604,7 +619,7 @@ footer {
   height: 104px;
   position: absolute;
   background: #efe6e4;
-  margin-top: 5311px;
+  margin-top: 4554px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -638,3 +653,5 @@ footer {
   height: 30px;
   margin-left: auto;
 }
+
+
